@@ -1,0 +1,24 @@
+﻿body
+{
+}
+
+header {
+    text-align: center;
+}
+
+nav li {
+    display:inline;
+}
+
+address ul {
+    list-style-type:none;
+}
+
+#socials img {
+    width:100px;
+    height:80px;
+}
+
+#socials ul {
+    list-style-type:none;
+}
