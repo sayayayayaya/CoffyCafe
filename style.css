@@ -14,6 +14,19 @@ address ul {
     list-style-type:none;
 }
 
+/* Standard Pictures used on Index and Menu pages*/
+#StdPic{
+    width:25%;
+}
+
+#LocationMap {
+    width: 70%;
+}
+
+#AboutUs_Logo {
+    width: 20%;
+}
+
 #socials img {
     width:100px;
     height:80px;
