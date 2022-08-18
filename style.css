@@ -1,18 +1,62 @@
-﻿body
-{
-}
-
 header {
     text-align: center;
+    padding: 10px;
+    
+   /* background-color: ; */
+}
+
+header h1 {
+    font-size: 44px;
+    color: #6C584C;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    display:inline;
+    display: inline;
+    font-size: 36px;
+}
+
+nav li a {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #6C584C;
+    /*background-color: #dddddd;*/
+}
+
+nav li a:hover {
+    color: #A98467;
+}
+
+.active {
+    color:#A98467;
+}
+
+#StdPic {
+    display: block;
+    width: 100%;
+}
+
+#StdPic2 {
+    display:block;
+    width: 60%
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
 
 address ul {
     list-style-type:none;
 }
+
+
 
 /* Standard Pictures used on Index and Menu pages*/
 #StdPic{
