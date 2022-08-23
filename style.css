@@ -1,8 +1,24 @@
-header {
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    background-color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+}
+
+#content {
     text-align: center;
-    padding: 10px;
-    
-   /* background-color: ; */
+    flex-direction: column;
+    max-width: 1000px;
+    background-color: #EEEEEE;
+    padding: 3em;
+}
+
+section p {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 header h1 {
@@ -26,7 +42,6 @@ nav li a {
     text-align: center;
     text-decoration: none;
     color: #6C584C;
-    /*background-color: #dddddd;*/
 }
 
 nav li a:hover {
@@ -37,14 +52,11 @@ nav li a:hover {
     color:#A98467;
 }
 
-#StdPic {
+.StdPic {
     display: block;
-    width: 100%;
-}
-
-#StdPic2 {
-    display:block;
-    width: 60%
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .responsive {
@@ -57,18 +69,25 @@ address ul {
 }
 
 
-
-/* Standard Pictures used on Index and Menu pages*/
-#StdPic{
-    width:25%;
-}
-
 #LocationMap {
     width: 70%;
 }
 
 #AboutUs_Logo {
     width: 20%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    justify-content:space-between;
+}
+
+#copyright {
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 #socials img {
