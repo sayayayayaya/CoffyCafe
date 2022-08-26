@@ -179,3 +179,69 @@ footer {
     #socials ul {
         list-style-type:none;
     }
+
+    @media (max-width: 800px) {
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 100vh;
+            width: 100vw;
+            margin: auto;
+            background-color: #AAAAAA;
+            justify-content: center;
+        }
+
+        .icon {
+            width: 10%;
+            height: 10%;
+        }
+
+        #menu-gallery img {
+            width: 30%;
+            height: 20vh;
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        
+            address ul {
+                list-style-type:none;
+                text-align: center;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+        
+            #copyright {
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            #socials {
+                display: flex;
+                justify-content: space-around;
+            }
+        
+            #socials img {
+                width:50px;
+                height:50px;
+            }
+        
+            #socials ul {
+                list-style-type:none;
+            }
+
+            #LocationMap {
+                width: 100%;
+            }
+
+    }
