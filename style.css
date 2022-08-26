@@ -1,19 +1,135 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    background-color: #AAAAAA;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 0;
+header h1 {
+    display: inline;
+    font-size: 44px;
+    color: #6C584C;
+    vertical-align: middle;
 }
 
-#content {
+    .icon {
+        display: inline;
+        vertical-align: middle;
+        width: 5%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline;
+        font-size: 36px;
+    }
+
+    nav li a {
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #6C584C;
+    }
+
+        nav li a:hover {
+            color: #A98467;
+        }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+    background-color: #AAAAAA;
+    justify-content: center;
+}
+
+#index-content {
     text-align: center;
+    display: flex;
     flex-direction: column;
     max-width: 1000px;
     background-color: #EEEEEE;
     padding: 3em;
+}
+
+    #index-content section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+
+    #index-content section p {
+        width: 100%;
+    }
+
+    #index-widepic {
+        border-radius: 15%;
+    }
+
+#findus-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    background-color: #EEEEEE;
+    padding: 3em;
+}
+
+    #LocationMap {
+        width: 70%;
+    }
+
+#menu-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    background-color: #EEEEEE;
+    padding: 3em;
+}
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    #menu-title {
+        width: 100%;
+    }
+
+    #menu-gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+    #menu-gallery img {
+        width: 20vw;
+        height: 30vh;
+        border-radius: 20%;
+    }
+
+#about-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    background-color: #EEEEEE;
+    padding: 3em;
+}
+
+    #AboutUs_Logo {
+        width: 20%;
+    }
+
+hr { /* overrides flexbox, which makes hr invisible */
+    margin-left: 0;
+    margin-right: 0;
 }
 
 section p {
@@ -21,60 +137,21 @@ section p {
     margin-bottom: 3em;
 }
 
-header h1 {
-    font-size: 44px;
-    color: #6C584C;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    font-size: 36px;
-}
-
-nav li a {
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #6C584C;
-}
-
-nav li a:hover {
-    color: #A98467;
-}
-
 .active {
     color:#A98467;
 }
 
 .StdPic {
-    display: block;
-    width: 60%;
+    display: inline-block;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20%;
 }
 
 .responsive {
     max-width: 100%;
     height: auto;
-}
-
-address ul {
-    list-style-type:none;
-}
-
-
-#LocationMap {
-    width: 70%;
-}
-
-#AboutUs_Logo {
-    width: 20%;
 }
 
 footer {
@@ -85,16 +162,20 @@ footer {
     justify-content:space-between;
 }
 
-#copyright {
-    margin-top: auto;
-    margin-bottom: 0;
-}
+    address ul {
+        list-style-type:none;
+    }
 
-#socials img {
-    width:70px;
-    height:70px;
-}
+    #copyright {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 
-#socials ul {
-    list-style-type:none;
-}
+    #socials img {
+        width:70px;
+        height:70px;
+    }
+
+    #socials ul {
+        list-style-type:none;
+    }
