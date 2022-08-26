@@ -18,7 +18,7 @@ header h1 {
     }
 
     nav li {
-        display: inline;
+        display: inline-block;
         font-size: 36px;
     }
 
@@ -181,6 +181,9 @@ footer {
     }
 
     @media (max-width: 800px) {
+        nav li {
+            margin: 1%;
+        }
         body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             height: 100vh;
@@ -219,6 +222,7 @@ footer {
                 text-align: center;
                 margin-top: auto;
                 margin-bottom: auto;
+                padding-left: 0;
             }
         
             #copyright {
