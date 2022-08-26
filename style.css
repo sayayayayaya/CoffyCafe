@@ -109,9 +109,11 @@ body {
     }
 
     #menu-gallery img {
-        width: 20vw;
-        height: 30vh;
+        object-fit: cover; /* picture aspect ratio alignment */
+        max-width: 30%;
         border-radius: 20%;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 
 #about-content {
@@ -199,10 +201,11 @@ footer {
         }
 
         #menu-gallery img {
-            width: 30%;
-            height: 20vh;
-            margin-left: 1vw;
-            margin-right: 1vw;
+            object-fit: cover; /* picture aspect ratio alignment */
+            max-width: 30%;
+            border-radius: 20%;
+            padding-left: 1%;
+            padding-right: 1%;
         }
 
         footer {
